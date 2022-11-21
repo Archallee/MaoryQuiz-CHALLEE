@@ -34,4 +34,13 @@ while (answer1 != answer[0] && answer1 != answer[1] && answer1 != answer[2] && a
 }
 Console.Clear();
 
-
+if (answer1 == answer[1])
+{
+    point += 1;
+    Console.WriteLine("Correct");
+}
+else
+{
+    point -= 1;
+    Console.WriteLine("Incorrect");
+}
