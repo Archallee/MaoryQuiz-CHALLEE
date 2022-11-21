@@ -20,3 +20,6 @@ string answer7;
 string answer8;
 string answer9;
 string answer10;
+
+//this will be the point system of the whole quiz
+int point = 0;
