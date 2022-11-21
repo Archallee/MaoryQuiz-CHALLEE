@@ -27,3 +27,11 @@ int point = 0;
 Console.WriteLine("1. On sunny days we need to wear a pōtae on our heads. What is a pōtae? \nA. GLASSES\nB. HAT\nC. SCARF\nD. WIG");
 Console.WriteLine("Answer: ");
 answer1 = Console.ReadLine();
+while (answer1 != answer[0] && answer1 != answer[1] && answer1 != answer[2] && answer1 != answer[3])
+{
+    Console.WriteLine("Please write a valid answer from the choices");
+    answer1 = Console.ReadLine();
+}
+Console.Clear();
+
+
