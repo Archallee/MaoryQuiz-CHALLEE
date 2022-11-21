@@ -44,3 +44,6 @@ else
     point -= 1;
     Console.WriteLine("Incorrect");
 }
+Console.WriteLine("2. E tū and e noho are...\nA. JUMP AND DANCE\nB. RUN AND WALK\nC. CLAP AND LAUGH\nD. STAND UP AND SIT DOWN");
+Console.WriteLine("Answer: ");
+answer2 = Console.ReadLine();
