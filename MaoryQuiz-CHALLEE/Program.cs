@@ -224,3 +224,13 @@ else
     point += 0;
     Console.WriteLine("Incorrect");
 }
+//this will indicate the total score and will give a particular message.
+Console.WriteLine("Your total score is " + point);
+if (point < 5)
+{
+    Console.WriteLine($"Nice try {name}, you still did your best, you just need a little more practice.");
+}
+else if (point > 5)
+{
+    Console.WriteLine($"Good job {name}, you did great on this quiz!");
+}
