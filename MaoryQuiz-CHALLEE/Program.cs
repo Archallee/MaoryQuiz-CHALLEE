@@ -23,3 +23,7 @@ string answer10;
 
 //this will be the point system of the whole quiz
 int point = 0;
+
+Console.WriteLine("1. On sunny days we need to wear a pōtae on our heads. What is a pōtae? \nA. GLASSES\nB. HAT\nC. SCARF\nD. WIG");
+Console.WriteLine("Answer: ");
+answer1 = Console.ReadLine();
