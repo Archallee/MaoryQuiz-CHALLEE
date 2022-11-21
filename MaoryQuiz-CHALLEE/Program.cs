@@ -64,3 +64,6 @@ else
     point -= 1;
     Console.WriteLine("Incorrect");
 }
+Console.WriteLine("3. Tamariki are like a map of their own parents. What is Tamariki?\nA. ADULTS\nB. CHILDREN\nC. TREES\nD. LAKES");
+Console.WriteLine("Answer: ");
+answer3 = Console.ReadLine();
