@@ -9,3 +9,14 @@ Console.WriteLine("Make sure you submit your answers in Upper case letters and l
 //the list of answers in arrays
 string[] answer = { "A", "B", "C", "D" };
 
+//this will serve as answer variables for each question
+string answer1;
+string answer2;
+string answer3;
+string answer4;
+string answer5;
+string answer6;
+string answer7;
+string answer8;
+string answer9;
+string answer10;
