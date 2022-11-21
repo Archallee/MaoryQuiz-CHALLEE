@@ -67,3 +67,20 @@ else
 Console.WriteLine("3. Tamariki are like a map of their own parents. What is Tamariki?\nA. ADULTS\nB. CHILDREN\nC. TREES\nD. LAKES");
 Console.WriteLine("Answer: ");
 answer3 = Console.ReadLine();
+while (answer1 != answer[0] && answer1 != answer[1] && answer1 != answer[2] && answer1 != answer[3])
+{
+    Console.WriteLine("Please write a valid answer from the choices");
+    answer1 = Console.ReadLine();
+}
+Console.Clear();
+
+if (answer3 == answer[1])
+{
+    point += 1;
+    Console.WriteLine("Correct");
+}
+else
+{
+    point -= 1;
+    Console.WriteLine("Incorrect");
+}
