@@ -29,7 +29,7 @@ Console.WriteLine("Answer: ");
 answer1 = Console.ReadLine();
 while (answer1 != answer[0] && answer1 != answer[1] && answer1 != answer[2] && answer1 != answer[3])
 {
-    Console.WriteLine("Please write a valid answer from the choices");
+    Console.WriteLine("Please write a valid answer from the choices. Make sure that your answer is in upper case.");
     answer1 = Console.ReadLine();
 }
 Console.Clear();
@@ -41,16 +41,16 @@ if (answer1 == answer[1])
 }
 else
 {
-    point -= 1;
+    point += 0;
     Console.WriteLine("Incorrect");
 }
 Console.WriteLine("2. E tū and e noho are...\nA. JUMP AND DANCE\nB. RUN AND WALK\nC. CLAP AND LAUGH\nD. STAND UP AND SIT DOWN");
 Console.WriteLine("Answer: ");
 answer2 = Console.ReadLine();
-while (answer1 != answer[0] && answer1 != answer[1] && answer1 != answer[2] && answer1 != answer[3])
+while (answer2 != answer[0] && answer2 != answer[1] && answer2 != answer[2] && answer2 != answer[3])
 {
-    Console.WriteLine("Please write a valid answer from the choices");
-    answer1 = Console.ReadLine();
+    Console.WriteLine("Please write a valid answer from the choices. Make sure that your answer is in upper case.");
+    answer2 = Console.ReadLine();
 }
 Console.Clear();
 
@@ -61,20 +61,40 @@ if (answer2 == answer[3])
 }
 else
 {
-    point -= 1;
+    point += 0;
     Console.WriteLine("Incorrect");
 }
 Console.WriteLine("3. Tamariki are like a map of their own parents. What is Tamariki?\nA. ADULTS\nB. CHILDREN\nC. TREES\nD. LAKES");
 Console.WriteLine("Answer: ");
 answer3 = Console.ReadLine();
-while (answer1 != answer[0] && answer1 != answer[1] && answer1 != answer[2] && answer1 != answer[3])
+while (answer3 != answer[0] && answer3 != answer[1] && answer3 != answer[2] && answer3 != answer[3])
 {
-    Console.WriteLine("Please write a valid answer from the choices");
-    answer1 = Console.ReadLine();
+    Console.WriteLine("Please write a valid answer from the choices. Make sure that your answer is in upper case.");
+    answer3 = Console.ReadLine();
 }
 Console.Clear();
 
 if (answer3 == answer[1])
+{
+    point += 1;
+    Console.WriteLine("Correct");
+}
+else
+{
+    point += 0;
+    Console.WriteLine("Incorrect");
+}
+Console.WriteLine("4. The colour of the bag is as kākāriki as a plant. What is kākāriki?\nA. PINK\nB. YELLOW\nC. GREEN\nD. BLUE");
+Console.WriteLine("Answer: ");
+answer4 = Console.ReadLine();
+while (answer4 != answer[0] && answer4 != answer[1] && answer4 != answer[2] && answer4 != answer[3])
+{
+    Console.WriteLine("Please write a valid answer from the choices. Make sure that your answer is in upper case.");
+    answer4 = Console.ReadLine();
+}
+Console.Clear();
+
+if (answer4 == answer[2])
 {
     point += 1;
     Console.WriteLine("Correct");
