@@ -1,5 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Welcome to the Maori Quiz!\n What\'s your name?");
+Console.WriteLine("Welcome to the Maori Quiz!\nWhat\'s your name?");
 string name = Console.ReadLine();
 
 Console.WriteLine($"Okay {name}, This multiple choice quiz will contain 10 questions");

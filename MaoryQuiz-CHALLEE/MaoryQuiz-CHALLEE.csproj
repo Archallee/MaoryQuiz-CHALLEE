@@ -8,4 +8,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Include="C:\Users\Challee Alarcon\Downloads\MaoriQuiz-CHALLEE.cs" Link="MaoriQuiz-CHALLEE.cs" />
+  </ItemGroup>
+
 </Project>
