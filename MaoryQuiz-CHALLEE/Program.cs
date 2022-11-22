@@ -37,8 +37,6 @@ static void start()
         start();
     }
 }
-    
-
     //the list of answers in arrays
     string[] answer = { "A", "B", "C", "D" };
 
